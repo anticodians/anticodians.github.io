@@ -13,7 +13,7 @@ This is a powerful model of composition. From a literary studies perspective, it
 
 But many in the group objected to aspects of Knuth's argument.
 
-In the first case, does an essay ever accurately reflect the writer's thought-process? Is there not an element of revision, polishing, and rhetoric in any essay? This doesn't invalidate Knuth's point, but thus far he does not seem to recognise the *fictionality* of the creative process. His WEB code is a *story* about how he wrote the program. What is the relationship between this story and the reality?
+In the first case, does an essay ever accurately reflect the writer's thought-process? Is there not an element of revision, polishing, and rhetoric in any essay? This doesn't invalidate Knuth's point, but thus far he does not seem to recognise the *fictionality* of the creative process. His WEB code is a *story* about how he wrote the program. What is the relationship between this story and the reality? Is there any reality that is not the story?
 
 In the second case, his particular pattern of explanation didn't work for everyone. In Knuth's view, each part of the code should be *preceded* by the prose that 'motivates' the decision. Some in the group felt that it would be better to present the code, and follow it with a commentary, at least in some cases. But this would undermine the fiction that that code is emerging from a reasoning process that is reflected in the source.
 
