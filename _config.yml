@@ -18,6 +18,9 @@ author:
 
 paginate: 5
 
+# favicon – use an emoji
+icon: 🦘
+
 # Custom vars
 version: 2.1.0
 
