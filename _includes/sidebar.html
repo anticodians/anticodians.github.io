@@ -1,0 +1,79 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}/"> {{ site.title }} </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a
+        class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}"
+        href="{{ site.baseurl }}/"
+        >Home</a
+      >
+
+      {% comment %} The code below dynamically generates a sidebar nav of pages
+      with `layout: page` in the front-matter. See readme for usage. {%
+      endcomment %} {% assign pages_list = site.pages %} {% for node in
+      pages_list %} {% if node.title != null %} {% if node.layout == "page" %}
+      <a
+        class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
+        href="{{ node.url }}"
+        >{{ node.title }}</a
+      >
+      {% endif %} {% endif %} {% endfor %}
+
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}"
+        >GitHub organisation</a
+      >
+    </nav>
+
+    <p
+      xmlns:cc="http://creativecommons.org/ns#"
+      xmlns:dct="http://purl.org/dc/terms/"
+    >
+      <a
+        property="dct:title"
+        rel="cc:attributionURL"
+        href="https://anticodians.org"
+        >Anticodians blog</a
+      >
+      &copy; {{ site.time | date: '%Y' }} by
+      <a
+        rel="cc:attributionURL dct:creator"
+        property="cc:attributionName"
+        href="{{site.author.url}}"
+        >{{ site.author.name }}</a
+      >
+      is licensed under
+      <a
+        href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"
+        target="_blank"
+        rel="license noopener noreferrer"
+        style="display: inline-block"
+        >CC BY 4.0<img
+          style="
+            height: 22px !important;
+            margin-left: 3px;
+            vertical-align: text-bottom;
+            display: inline-block;
+            margin-bottom: 0;
+          "
+          src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+          alt="" /><img
+          style="
+            height: 22px !important;
+            margin-left: 3px;
+            vertical-align: text-bottom;
+            display: inline-block;
+            margin-bottom: 0;
+          "
+          src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+          alt=""
+      /></a>
+    </p>
+  
+  </div>
+</div>

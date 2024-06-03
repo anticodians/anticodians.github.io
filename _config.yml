@@ -1,0 +1,31 @@
+# Dependencies
+markdown: kramdown
+highlighter: Rouge
+
+# Permalinks
+permalink: pretty
+
+# Setup
+title: Anticodians
+tagline: "Reading code critically in the antipodes"
+description: "Anticodians is a <a href='https://criticalcodestudies.com/'>Critical Code Studies</a> reading group based in the antipodes."
+url: https://anticodeans.github.io
+baseurl: 
+
+author:
+  name: "Michael Falk"
+  url: https://michaelfalk.io
+
+paginate: 5
+
+# Custom vars
+version: 2.1.0
+
+github:
+  repo: https://github.com/anticodeans/
+
+plugins:
+  - 'jekyll-gist'
+  - 'jekyll-sitemap'
+  - 'jekyll-seo-tag'
+  - 'jekyll-paginate'
