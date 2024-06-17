@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The useless web?
+summary: Knuth's WEB is certainly beautiful. Is it useful?
 ---
 
 We continue our reading of [Literate Programming](https://academic.oup.com/comjnl/article-pdf/27/2/97/981657/270097.pdf), by Donald Knuth.

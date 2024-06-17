@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Explanation and Motivation
+summary: How should the programmer depict their own creative process?
 ---
 
 We continue our reading of [Literate Programming](https://academic.oup.com/comjnl/article-pdf/27/2/97/981657/270097.pdf), by Donald Knuth.
