@@ -33,9 +33,11 @@ The main criterion of 'simplicity' for Knuth seems to be: paucity of primitive e
 
 Programmers often want to 'reason' about their programs. This is probably the activity Knuth hopes to support by allowing only macros of one parameter. It is easier for me to see what a macro will do, because it is so constrained in what it *can* do. I can construct a more complex macro by combining several macros together. While this may seem complex at first, the advantage is that each individual piece is extremely simple, and I can understand it perfectly with little effort.
 
-In this way, there is a happy marriage between the impelementor and the user, both of whom benefit from the same kind of simplicity. How often do programmers and computer scientists aim for this kind of happy marriage? Is the user's simplicitiy alway reducible to the implementors?
+In this way, there is a happy marriage between the impelementor and the user, both of whom benefit from the same kind of simplicity. How often do programmers and computer scientists aim for this kind of happy marriage? Is the user's simplicitiy alway reducible to the implementor's?
 
-Of course in Knuth's case, the users and implementors were often the same people. As he explains in section `I`, on "Portability," installing WEB was no easy matter in the 1980s. This importability extended to programs *written* in WEB, such as TeX. In the days when software was distributed as source code, the user often had to modify the code in order to get the software working. Ease of implementation and ease of use are hard to distinguish in such a context.
+Of course in Knuth's case, the users and implementors were often the same people. As he explains in section `I`, on "Portability," installing WEB was no easy matter in the 1980s. This importability[^1] extended to programs *written* in WEB, such as TeX. In the days when software was distributed as source code, the user often had to modify the code in order to get the software working. Ease of implementation and ease of use are hard to distinguish in such a context.
+
+[^1]: I wrote this word as a nominalisation of 'importable', by analogy with 'portability'. Then had second thoughts. The *OED* confirms that 'importability' is not attested in the sense of 'the quality of lacking portability'. Treat this as a catachresis, solecism or evidence of usage as you please.
 
 We spoke for sometime about the culture of programming in the 1980s. All this fuss about macros seems otiose to digital humanists raised on dynamically typed intepreted languages like R, Python and JavaScript. There is simply no need for all this mucking about! There are two tracks through Knuth's arguments that are difficult to disentangle:
 
