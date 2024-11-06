@@ -18,7 +18,7 @@ Knuth argues `WEB` accomodates both 'top-down' and 'bottom-up' programming, or r
 
 For example, perhaps some global variables are manipulated by subroutine X, and others are manipulated by subroutine Y. From a hierarchical perspective, each global variable and each subroutine is a separate part of the program, on the same level, while the code inside each subroutine is at the next level down, nested within the subroutine. Using `WEB`, however, the programmer can explicitly reveal the relationships between the variables and the subroutines, for example by declaring the variables next to the subroutines that matter to them, or by building up the subroutines in parts that a clearly related to other global aspects of the program.
 
-There is an interesting slippage in Knuth's argument. There is the 'hierarchical structure' on the one hand, and the 'structural relationships' on the other. Both of these are 'structur(e|al)'. What makes them different? How are they related?
+There is an interesting slippage in Knuth's argument. There is the 'hierarchical structure' on the one hand, and the 'structural relationships' on the other. Both of these are `structur(e|al)`. What makes them different? How are they related?
 
 Knuth implies that there is no single description of a program that is the right one. Programs have many parts, which combine to form the entire program. These parts have many possible relationships: the orderly hierarchy of their execution by the machine is only one set of relationships. The human reader of a program may observe many other sets of relationships in the program that matter to them.
 
