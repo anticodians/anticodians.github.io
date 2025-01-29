@@ -28,7 +28,7 @@ icon: 🦘
 version: 2.1.0
 
 github:
-  repo: https://github.com/anticodeans/
+  repo: https://github.com/anticodians/anticodians.github.io
 
 plugins:
   - 'jekyll-gist'
