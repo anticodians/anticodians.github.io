@@ -30,7 +30,7 @@ If you would like to join us, please use the form below. This will add you to ou
 
 ## We're currently reading
 
-Come back in 2025 to see our next juicy text. It will be something to do with GenAI...
+Daniel P. Friedman and Anurag Mendhekar, *[The Little Learner: A Straight Line into Deep Learning](https://www.thelittlelearner.com/) (Cambridge, MA: MIT Press, 2023).
 
 ## We have read
 
