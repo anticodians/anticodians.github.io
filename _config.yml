@@ -36,3 +36,4 @@ plugins:
   - 'jekyll-seo-tag'
   - 'jekyll-paginate'
   - 'jekyll-spaceship'
+  - 'jekyll-target-blank'

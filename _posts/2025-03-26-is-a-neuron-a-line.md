@@ -22,7 +22,7 @@ In this session, we learned how to represent this familiar function in Racket. T
 
 There are three main ways that this representation differs from the $y = mx + b$ we all learned at school:
 
-### First diffeence: $m$ is $w$
+### First difference: $m$ is $w$
 
 The authors don't tell us why they use $w$ for the coefficient of $x$, rather than the more familiar $m$, but it presumably because the parameters which are coefficients are typically called the "weights" of a model. They left $b$ as is, presumably because the non-coefficient parameters of a model are typically called the "biases." Thus $y = wx + b$ can be read as "$y$ equals $x$ times its weight plus the bias."
 

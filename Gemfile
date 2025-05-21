@@ -7,3 +7,4 @@ gem 'jekyll-paginate'
 gem 'csv'
 gem 'base64'
 gem 'jekyll-spaceship'
+gem "jekyll-target-blank", "~> 2.0"
