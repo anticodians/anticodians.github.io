@@ -34,6 +34,8 @@ Daniel P. Friedman and Anurag Mendhekar, *[The Little Learner: A Straight Line i
 
 ## We have read
 
+[llm.py](https://github.com/rbturnbull/hespi/blob/main/hespi/llm.py), part of the [HESPI](https://rbturnbull.github.io/hespi/) project, which uses AI to discover structured data in Herbarium specimen sheets. This file interfaces with an online LLM service to perform data cleaning at the end the HESPI pipeline.
+
 Donald Ervin Knuth, “[Literate Programming](https://academic.oup.com/comjnl/article-pdf/27/2/97/981657/270097.pdf),” *The Computer Journal* 27, no. 2 (1984): 97–111.
 
 `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`: Just the program, but [the book](https://10print.org) is well worth it.
