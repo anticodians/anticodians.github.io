@@ -21,9 +21,9 @@ There are two big drawbacks to this algorithm:
 
 Backpropagation remarkably solves both these issues. It allows you to adjust *all* the parameters at once, and it allows you to calculate how much you should increase or decrease each parameter to (more or less) ensure that the model actually improves.
 
-So far we are focussing on drawback 2: working out how much to increase or decrease each parameter. It turns out that you can use the loss function to 
+So far we are focussing on drawback 2: working out how much to increase or decrease each parameter. It turns out that you can use the objective function to determine both the magnitude and direction of change. You measure the error of the model, then adjust its parameters by a multiple of the error. That this works may seem spooky, but can be explained through calculus.
 
-## Three pieces
+## Three pieces: loss, learning rate, propagation
 
 The **loss** is a measurement of how well the network performs. We have already seen that to train a neural network, you need to define an objective function that the system can use to test itself against the training data. In our reading last session, we found out that you can use this loss to help you improve the network's parameters.
 
