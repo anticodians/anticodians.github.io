@@ -128,13 +128,13 @@ The initial guess is the starting point for the learning process. In this case, 
 (list 0.0 0.0)
 ```
 
-The initial guess is called "little theta" ($\theta$) in *The Little Learner*. The parameters learned by the gradient descent algorithm are called "big theta" ($\THETA$).
+The initial guess is called "little theta" ($\theta$) in *The Little Learner*. The parameters learned by the gradient descent algorithm are called "big theta" ($\Theta$).
 
 When you run the gradient descent algorithm, this initial guess will be improved `revs` times, hopefully producing much better values for `w` and `b`—or for whatever parameters are required by your target function.
 
 ### 7. Parameters!
 
-If all goes well, the machine learning program should spit out some new parameters, which can be combined with the target function to start making predictions or inferences. In the [example code](https://github.com/anticodians/little-learner/blob/09370349a8555cacc1304e65e548c4c2dcaa4d9c/5-target-practice.rkt), using the provided `line-xs` and `line-ys`, the learned parameters ($\THETA$) are:
+If all goes well, the machine learning program should spit out some new parameters, which can be combined with the target function to start making predictions or inferences. In the [example code](https://github.com/anticodians/little-learner/blob/09370349a8555cacc1304e65e548c4c2dcaa4d9c/5-target-practice.rkt), using the provided `line-xs` and `line-ys`, the learned parameters ($\Theta$) are:
 
 ```scheme
 (list 1.0499993623489503 1.8747718457656533e-6)
@@ -150,7 +150,9 @@ Well, if `x` is 72, what would `y` be?
 
 $$
 y = 1.05(72) + 0.00
+$$
 
+$$
 y = 75.6
 $$
 
@@ -179,10 +181,10 @@ In this case, $x_0$ might be the distance from the CBD in kilometres, $x_1$ migh
 In our last session, we saw a target function that could do this, though it was presented differently. The function is called `plane`. It is identical to the function given above, but uses a more compact notation:
 
 $$
-y = \begin{Bmatrix} w_0 & w_1 & w_2 & ... & w_n \end{Bmatrix} \dot \begin{Bmatrix} x_0 & x_1 & x_2 & ... & x_n \end{Bmatrix} + b
+y = \begin{Bmatrix} w_0 & w_1 & w_2 & ... & w_n \end{Bmatrix} \cdot \begin{Bmatrix} x_0 & x_1 & x_2 & ... & x_n \end{Bmatrix} + b
 $$
 
-This is exactly identical to the somewhat simpler notation above. Each of the sets of numbers is a tensor<sub>1</sub>, also known as a vector. This symbol $\dot$ means "dot product." When you take the "dot product" of two vectors, it means that you multiply the corresponding elements (e.g. $w_1 \times x_1$), and then add up all the products. This is of course exactly what we do in the more familiar representation of a linear equation above.
+This is exactly identical to the somewhat simpler notation above. Each of the sets of numbers is a tensor<sub>1</sub>, also known as a vector. This symbol $\cdot$ means "dot product." When you take the "dot product" of two vectors, it means that you multiply the corresponding elements (e.g. $w_1 \times x_1$), and then add up all the products. This is of course exactly what we do in the more familiar representation of a linear equation above.
 
 Another example where `line` is an inadequate target function is when the relationship between two variables is non-linear. In visual terms, this means that a graph of the two variables is *curved* rather than *straight*. In this case, the problem is that all the `x` values are raised to the power of $1$. We don't normally write the power when it is a power of $1$, but we can do so to make the point:
 
@@ -251,4 +253,4 @@ learned_parameters = gradient_descent(
 
 The LISP/Scheme/Racket/malt code is extremely concise, and the structure of the code also directly reflects the structure of the program. But is this kind of poetry really the right way to impart knowledge?
 
-It does make me think of some of the great Sanskrit philosophers, such as Nagarjuna and Gangesa, who composed their works in extremely terse couplets (or *shloka*s). The books are almost impossible to read (I've only tried in English translation!), and can only be understood through copious commentary on each highly compressed couplet. One theory is that these poems were used as University curricula. Philosophers would memorise their own poems, or those of their teachers, and recite them to students in class. Each *shloka* would be recited individually, and extensively discussed, as a way to explore the problem. To me, *The Little Learner* hearkens back to this mode of instruction. The code is gnomic and compressed, but it is also fantastically well structured and poetic. The two "voices" in the text discuss the code poetry, and unpack it for the reader. We, the Anticodians, discuss and unpack it further. The only missing piece is the memorisation... and I don't think any of use is up for that!
+It does make me think of some of the great Sanskrit philosophers, such as [Nagarjuna](https://en.wikipedia.org/wiki/Nagarjuna) and [Gaṅgeśa](https://en.wikipedia.org/wiki/Ga%E1%B9%85ge%C5%9Ba), who composed their works in extremely terse couplets (or *shloka*s). The books are almost impossible to read (I've only tried in English translation!), and can only be understood through copious commentary on each highly compressed couplet. One theory is that these poems were used as University curricula. Philosophers would memorise their own poems, or those of their teachers, and recite them to students in class. Each *shloka* would be recited individually, and extensively discussed, as a way to explore the problem. To me, *The Little Learner* hearkens back to this mode of instruction. The code is gnomic and compressed, but it is also fantastically well structured and poetic. The two "voices" in the text discuss the code poetry, and unpack it for the reader. We, the Anticodians, discuss and unpack it further. The only missing piece is the memorisation... and I don't think any of use is up for that!
