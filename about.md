@@ -32,6 +32,8 @@ If you would like to join us, please use the form below. This will add you to ou
 
 Daniel P. Friedman and Anurag Mendhekar, *[The Little Learner: A Straight Line into Deep Learning](https://www.thelittlelearner.com/)* (Cambridge, MA: MIT Press, 2023).
 
+Peter Norvig, "[(How to Write a (Lisp) Interpreter (in Python))](https://www.norvig.com/lispy.html)"
+
 ## We have read
 
 [llm.py](https://github.com/rbturnbull/hespi/blob/main/hespi/llm.py), part of the [HESPI](https://rbturnbull.github.io/hespi/) project, which uses AI to discover structured data in Herbarium specimen sheets. This file interfaces with an online LLM service to perform data cleaning at the end the HESPI pipeline.
